@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="depositphotos_124005594-stock-illustration-emoticon-with-rose-between-teeth.png" alt="">
+
+        <br>
+
+        <p class="texto-1">
+           <em> Aceita namorar comigo ? </em>
+        </p>
+
+        <button id="sim">
+            <a href="segpag.html">Sim</a>
+        </button>
+
+        <button id="nao">
+            Não
+        </button>
+
+        <script>
+
+        let button = document.getElementById('nao')
+        let height = window.innerHeight-25
+        let width = window.innerWidth-50
+
+        button.addEventListener('mouseover', function(){
+            button.style.position='absolute'
+            button.style.top=Math.random()*height+'px'
+            button.style.left=Math.random()*width+'px'
+        })
+
+        const btn = document.getElementById('sim')
+        btn.addEventListener('click', function(){
+            alert('Obrigado, voce clicou!')
+        })
+        </script>
+
+    </div>
+</body>
+</html>
