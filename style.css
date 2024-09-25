@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.container{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 550px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.texto-1{
+    font-family: Poiret One;
+    font-style: oblique;
+}
+
+img{
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+body{
+    background-color: brown;
+}
+
+#sim{
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+#sim::hover{
+    
+}
+
+.recusar{
+    border-radius: 3px;
+}
+
+/* Adicione essas regras de estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+      height: 300px;
+      margin-top: 20px;
+    }
+  
+    img {
+      height: 100px;
+      margin-top: 20px;
+    }
+  
+    #sim {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 80%;
+      height: 250px;
+      margin-top: 10px;
+    }
+  
+    img {
+      height: 80px;
+      margin-top: 10px;
+    }
+  
+    #sim {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .container {
+      width: 70%;
+      height: 200px;
+      margin-top: 5px;
+    }
+  
+    img {
+      height: 60px;
+      margin-top: 5px;
+    }
+  
+    #sim {
+      margin-top: 5px;
+    }
+  }
